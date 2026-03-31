@@ -1,0 +1,27 @@
+<div class="container">
+    <h2>⚡ Al Harithiya Calculator</h2>
+
+    <!-- اختيار النظام -->
+    <div class="mode-switch">
+        <button onclick="setMode('math')">Math</button>
+        <button onclick="setMode('physics')">Physics</button>
+    </div>
+
+    <!-- أزرار ديناميكية -->
+    <div id="buttonsContainer"></div>
+
+    <!-- إدخال -->
+    <input type="text" id="calcInput" placeholder="Enter expression">
+
+    <!-- Canvas -->
+    <canvas id="coordCanvas" width="400" height="400"></canvas>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <p id="result"></p>
+    <p id="steps"></p>
+
+    <p id="madeBy">
+    Made by Ali Saif Ali Mustafa Ahmed Shaheed Amir Ghaith Shawqi, with the assistance of Mustafa Ahmed Khurshid, First Grade A
+    </p>
+</div>
